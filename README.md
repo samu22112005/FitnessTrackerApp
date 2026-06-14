@@ -1,125 +1,116 @@
-🏋️ Fitness Tracker App
+# 📱 Fitness Tracker App
 
-📌 Overview
-
-The Fitness Tracker App is a user-friendly application designed to help individuals monitor and improve their daily fitness activities. It allows users to track workouts, count calories burned, set fitness goals, and visualize progress over time.
-
-This project aims to promote a healthy lifestyle by making fitness tracking simple, accessible, and motivating.
+A modern Fitness Tracker Android application built using Java and Android Studio that helps users track daily activity, practice yoga, and improve mental wellness through guided breathing exercises.
 
 ---
 
-🚀 Features
+## 🚀 Features
 
-- ✅ Track daily steps and calories burned
-- 🏃 Log workouts and exercises
-- 🎯 Set and manage fitness goals
-- 📊 View progress using charts and reports
-- 🔐 User authentication (Login/Register) (if implemented)
-- 📱 Responsive and easy-to-use interface
+### 👣 Step Counter
+- Tracks real-time steps using device sensors  
+- Calculates calories burned based on steps  
+- Reset functionality for daily tracking  
 
----
+### 🧘‍♀️ Yoga Section
+- Displays yoga poses with images  
+- Clickable cards with detailed pose instructions  
+- Smooth click animations  
 
-🛠️ Tech Stack
+### 🌬️ Breathing / Meditation
+- Animated inhale–exhale breathing exercise  
+- Helps with relaxation and mindfulness  
+- Clean and minimal UI  
 
-Frontend:
+### 👤 Profile Screen
+- Displays fitness goals (steps & calories)  
+- Simple and user-friendly layout  
 
-- HTML, CSS, JavaScript (or React, if used)
-
-Backend:
-
-- Java (Spring Boot / Spring MVC)
-
-Database:
-
-- MySQL
-
-Tools & Technologies:
-
-- Git & GitHub
-- REST APIs
-- IntelliJ IDEA / VS Code
+### 🧭 Navigation
+- Bottom Navigation Bar  
+- Easy switching between:
+  - Home  
+  - Yoga  
+  - Breathing  
+  - Profile  
 
 ---
 
-📂 Project Structure
+## 🎨 UI Design
 
-fitness-tracker/
-│── src/
-│   ├── controller/
-│   ├── service/
-│   ├── model/
-│   ├── repository/
-│── resources/
-│   ├── templates/
-│   ├── static/
-│── database/
-│── README.md
+- Dark theme with accent colors  
+- Card-based layout (Figma-inspired)  
+- Smooth animations and modern UI components  
 
 ---
 
-⚙️ Installation & Setup
+## 🛠️ Tech Stack
 
-1️⃣ Clone the Repository
-
-git clone https://github.com/your-username/fitness-tracker.git
-cd fitness-tracker
-
-2️⃣ Configure Database
-
-- Create a MySQL database:
-
-CREATE DATABASE fitness_tracker;
-
-- Update "application.properties":
-
-spring.datasource.url=jdbc:mysql://localhost:3306/fitness_tracker
-spring.datasource.username=your_username
-spring.datasource.password=your_password
-
-3️⃣ Run the Application
-
-- Open the project in your IDE
-- Run the main class (Spring Boot Application)
-
-4️⃣ Access the App
-
-http://localhost:8080
+- Language: Java  
+- IDE: Android Studio  
+- UI: XML Layouts  
+- Sensors: Step Counter Sensor  
+- Design: Material Components  
 
 ---
 
-📊 Future Enhancements
+## 📂 Project Structure
 
-- 📱 Mobile app integration
-- 🧠 AI-based fitness recommendations
-- ⌚ Integration with wearable devices
-- 🔔 Notifications and reminders
-
----
-
-🎯 Objective
-
-The goal of this project is to build a simple yet effective fitness tracking system that helps users stay consistent, motivated, and aware of their health progress.
-
----
-
-🤝 Contributing
-
-Contributions are welcome!
-Feel free to fork this repository and submit a pull request.
+FitnessTrackerApp/
+│── java/com.example.fitnesstrackerapp/
+│   ├── MainActivity.java
+│   ├── YogaActivity.java
+│   ├── YogaDetailActivity.java
+│   ├── BreathingActivity.java
+│   ├── ProfileActivity.java
+│   ├── SplashActivity.java
+│
+│── res/
+│   ├── layout/
+│   ├── drawable/
+│   ├── values/
+│   ├── menu/
 
 ---
 
-📜 License
+## 📸 Screenshots
 
-This project is licensed under the MIT License.
+(Add your app screenshots here)
+
+---
+
+## 🔧 How to Run
+
+1. Clone the repository  
+   git clone https://github.com/your-username/FitnessTrackerApp.git  
+
+2. Open project in Android Studio  
+
+3. Connect your Android device or emulator  
+
+4. Click Run ▶️  
 
 ---
 
-👩‍💻 Author
+## 📌 Future Enhancements
 
-Your Name
-
-- GitHub: https://github.com/your-username
-- LinkedIn: https://linkedin.com/in/your-profile
+- Step history graph (MPAndroidChart)  
+- Data storage (SQLite / Firebase)  
+- Daily reminder notifications  
+- Meditation sounds  
+- User authentication system  
 
 ---
+
+## 💡 Learning Outcomes
+
+- Android Activity lifecycle  
+- UI design with XML  
+- Sensor integration  
+- Navigation using Intents  
+- Event handling & animations  
+
+---
+
+## ⭐ Show Your Support
+
+If you like this project, give it a star on GitHub!
